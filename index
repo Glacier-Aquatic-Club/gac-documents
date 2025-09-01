@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glacier Aquatic Club - Parent Guides</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <div class="max-w-4xl mx-auto p-8 md:p-12">
+        <!-- Header -->
+        <div class="flex flex-col items-center text-center">
+            <img src="https://www.glacieraquaticclub.com/mtkats/team-logo/default/glacier-evergreen-asset-pack-01-700x700-alpha-transparent_085567-ts-thumb.png" alt="Glacier Aquatic Club Logo" class="w-32 h-32" onerror="this.style.display='none'">
+            <h1 class="text-4xl md:text-5xl font-bold tracking-tight text-blue-800 mt-4">Glacier Aquatic Club</h1>
+            <p class="text-xl text-gray-600 mt-2">Parent & Swimmer Resource Hub</p>
+        </div>
+
+        <!-- Guide Links -->
+        <div class="mt-12 grid md:grid-cols-2 gap-8">
+            
+            <!-- First Meet Guide Card -->
+            <a href="gac-first-meet-guide.html" class="block bg-white p-8 rounded-lg shadow-lg border-t-8 border-blue-500 hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
+                <h2 class="text-2xl font-bold text-gray-800">First Meet Quick Guide</h2>
+                <p class="mt-3 text-gray-600">Are you new to the team or heading to your first competition? This step-by-step guide has everything you need to feel prepared and confident.</p>
+                <div class="mt-6 font-semibold text-blue-600">
+                    Get Started Here &rarr;
+                </div>
+            </a>
+
+            <!-- Full Handbook Card -->
+            <a href="handbook.html" class="block bg-white p-8 rounded-lg shadow-lg border-t-8 border-gray-700 hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
+                <h2 class="text-2xl font-bold text-gray-800">Official Team Handbook</h2>
+                <p class="mt-3 text-gray-600">The complete reference for all GAC families, covering everything from practice groups and fees to our codes of conduct and volunteering.</p>
+                 <div class="mt-6 font-semibold text-gray-800">
+                    View Full Handbook &rarr;
+                </div>
+            </a>
+
+        </div>
+    </div>
+
+</body>
+</html>
