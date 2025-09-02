@@ -26,7 +26,7 @@
             }
         }
         .watermark {
-            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23dbeafe' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60' 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23dbeafe' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
         }
     </style>
 </head>
@@ -52,7 +52,7 @@
 
         <!-- Page 2: Welcome & About GAC -->
         <div class="p-8 md:p-12">
-            <div class="mb-4">
+            <div class="mb-4 no-print">
                 <a href="index.html" class="text-sm font-medium text-blue-600 hover:underline">&larr; Back to All Parent Guides</a>
             </div>
             <h2 class="text-3xl font-bold text-blue-800 border-b-4 border-blue-200 pb-2">Welcome to the Club!</h2>
@@ -66,17 +66,17 @@
             <div class="mt-8">
                 <h3 class="text-xl font-bold text-gray-800">Important Websites & Resources</h3>
                  <div class="mt-4 grid md:grid-cols-2 gap-6">
-                    <div class="bg-gray-50 p-4 rounded-lg border">
-                        <h4 class="font-bold text-lg text-gray-700">GAC Official Website</h4>
-                        <p class="mt-2 text-gray-600">Our website is your primary source for schedules, event sign-ups, billing, volunteer opportunities, and contacts. Please visit it regularly.</p>
-                        <a href="https://www.glacieraquaticclub.com" target="_blank" class="text-blue-600 font-semibold mt-2 inline-block">glacieraquaticclub.com</a>
-                    </div>
-                    <div class="bg-gray-50 p-4 rounded-lg border">
-                        <h4 class="font-bold text-lg text-gray-700">USA & Montana Swimming</h4>
-                        <p class="mt-2 text-gray-600">Visit USA Swimming for national info and Montana Swimming for local news and events. Both are great resources for new swim families.</p>
-                         <a href="https://www.usaswimming.org" target="_blank" class="text-blue-600 font-semibold mt-2 inline-block">usaswimming.org</a> | <a href="https://www.mtswimming.com" target="_blank" class="text-blue-600 font-semibold">mtswimming.com</a>
-                    </div>
-                </div>
+                     <div class="bg-gray-50 p-4 rounded-lg border">
+                         <h4 class="font-bold text-lg text-gray-700">GAC Official Website</h4>
+                         <p class="mt-2 text-gray-600">Our website is your primary source for schedules, event sign-ups, billing, volunteer opportunities, and contacts. Please visit it regularly.</p>
+                         <a href="https://www.glacieraquaticclub.com" target="_blank" class="text-blue-600 font-semibold mt-2 inline-block">glacieraquaticclub.com</a>
+                     </div>
+                     <div class="bg-gray-50 p-4 rounded-lg border">
+                         <h4 class="font-bold text-lg text-gray-700">USA & Montana Swimming</h4>
+                         <p class="mt-2 text-gray-600">Visit USA Swimming for national info and Montana Swimming for local news and events. Both are great resources for new swim families.</p>
+                          <a href="https://www.usaswimming.org" target="_blank" class="text-blue-600 font-semibold mt-2 inline-block">usaswimming.org</a> | <a href="https://www.mtswimming.com" target="_blank" class="text-blue-600 font-semibold">mtswimming.com</a>
+                     </div>
+                 </div>
             </div>
         </div>
         
@@ -85,7 +85,9 @@
         <!-- Page 3: Joining the Team -->
         <div class="p-8 md:p-12">
             <div class="flex items-center space-x-4 border-b-4 border-blue-200 pb-2">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-sxeTR6hEvOBpoifs2P1xB9eX40NCQEQXtA&s" alt="Swimmer Icon" class="w-12 h-12" onerror="this.style.display='none'">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z" />
+                </svg>
                 <h2 class="text-3xl font-bold text-blue-800">Joining the Team</h2>
             </div>
             <div class="mt-6 space-y-6">
@@ -112,96 +114,91 @@
         <!-- Page 4: Training Groups -->
         <div class="p-8 md:p-12">
             <div class="flex items-center space-x-4 border-b-4 border-blue-200 pb-2">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-sxeTR6hEvOBpoifs2P1xB9eX40NCQEQXtA&s" alt="Swimmer Icon" class="w-12 h-12" onerror="this.style.display='none'">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>
                 <h2 class="text-3xl font-bold text-blue-800">Training Groups & Move-Up Requirements</h2>
             </div>
             <p class="mt-4 text-gray-700 leading-relaxed">GAC offers age-specific training geared towards challenging each individual and developing them to the best of THEIR abilities. Group placement is determined by the coaching staff based on the criteria below.</p>
-            <div class="mt-6 overflow-x-auto">
-                <table class="min-w-full bg-white border border-gray-300 text-sm text-left">
-                    <thead class="bg-blue-600 text-white">
-                        <tr>
-                            <th class="p-3 border-b"></th>
-                            <th class="p-3 border-b">🥉 Bronze</th>
-                            <th class="p-3 border-b">🥈 Silver</th>
-                            <th class="p-3 border-b">🥇 Gold</th>
-                            <th class="p-3 border-b">🏆 Senior</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="bg-gray-50">
-                            <td class="p-3 font-bold border-b">Age</td>
-                            <td class="p-3 border-b">6-10 years</td>
-                            <td class="p-3 border-b">9-12 years</td>
-                            <td class="p-3 border-b">11-14 years</td>
-                            <td class="p-3 border-b">13+ years</td>
-                        </tr>
-                        <tr>
-                            <td class="p-3 font-bold border-b">Practice Attendance</td>
-                            <td class="p-3 border-b">2-3 per week</td>
-                            <td class="p-3 border-b">3 per week</td>
-                            <td class="p-3 border-b">4 per week</td>
-                            <td class="p-3 border-b">5 per week</td>
-                        </tr>
-                        <tr class="bg-gray-50">
-                            <td class="p-3 font-bold border-b">Meet Participation (minimum)</td>
-                            <td class="p-3 border-b">1-3 per SC/LC</td>
-                            <td class="p-3 border-b">3 per SC/LC</td>
-                            <td class="p-3 border-b">4 per SC/LC</td>
-                            <td class="p-3 border-b">5 per SC/LC</td>
-                        </tr>
-                        <tr>
-                            <td class="p-3 font-bold border-b">Meet Times</td>
-                            <td class="p-3 border-b">None</td>
-                            <td class="p-3 border-b">50 Free: 43.00<br>100 Free: 1:45</td>
-                            <td class="p-3 border-b">50 Free: 38.00<br>100 Free: 1:30</td>
-                            <td class="p-3 border-b">50 Free: 33.00<br>100 Free: 1:15<br>200 Free: 3:00</td>
-                        </tr>
-                        <tr class="bg-gray-50">
-                            <td class="p-3 font-bold border-b">Test Sets (In Practice)</td>
-                            <td class="p-3 border-b">Continuous 25 of each stroke</td>
-                            <td class="p-3 border-b">200 Free: 4:00<br>200 Kick: 5:00<br>5x50 Kick 1:30</td>
-                            <td class="p-3 border-b">500 Free: 7:00<br>400 Kick: 7:30<br>5 x 100 Free @ 2:00</td>
-                            <td class="p-3 border-b">Nonstop 1000<br>500 Kick: 10:00<br>5 x 100 Free @ 1:40</td>
-                        </tr>
-                        <tr>
-                            <td class="p-3 font-bold border-b align-top">Other Skills</td>
-                            <td class="p-3 border-b align-top">
-                                <ul class="list-disc list-inside space-y-1">
-                                    <li>Streamline and side push offs</li>
-                                    <li>Consistently touches with two hands on Breaststroke and Butterfly</li>
-                                </ul>
-                            </td>
-                            <td class="p-3 border-b align-top">
-                                <ul class="list-disc list-inside space-y-1">
-                                    <li>Shallow dive from block (USA Swimming certified)</li>
-                                    <li>Consistently does flip turns in practice and races</li>
-                                    <li>Relay start with correct direction arm movement</li>
-                                    <li>Understands simple pace clock intervals</li>
-                                    <li>Legal Breaststroke kick</li>
-                                </ul>
-                            </td>
-                            <td class="p-3 border-b align-top">
-                                <ul class="list-disc list-inside space-y-1">
-                                    <li>Legal Individual Medley turns</li>
-                                    <li>Performs flip turns with a snorkel</li>
-                                    <li>Five dolphin kicks off walls</li>
-                                    <li>Breaks out past the flags on starts</li>
-                                    <li>Understands all pace clock intervals</li>
-                                </ul>
-                            </td>
-                            <td class="p-3 border-b align-top">
-                                <ul class="list-disc list-inside space-y-1">
-                                    <li>Legal 200 Individual Medley (3:15)</li>
-                                    <li>Breaks out past the flags on turns</li>
-                                    <li>Drylands training is required</li>
-                                </ul>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-                <div class="mt-6 bg-blue-50 p-4 rounded-lg border border-blue-200 text-sm text-blue-800">
-                    <p><strong class="font-semibold">Coach's Discretion:</strong> Please note that all group movements are ultimately dependent on the discretion of the coaching staff, considering a swimmer's overall development, maturity, and readiness.</p>
+            
+            <div class="mt-6 grid gap-6 md:grid-cols-2">
+                <!-- Bronze Group Card -->
+                <div class="bg-yellow-50 border-2 border-yellow-300 rounded-lg shadow-md p-6 flex flex-col">
+                    <h3 class="text-2xl font-bold text-yellow-800 mb-4">🥉 Bronze Group</h3>
+                    <div class="space-y-3 text-sm text-gray-700">
+                        <p><strong>Age:</strong> 6-10 years</p>
+                        <p><strong>Practice Attendance:</strong> 2-3 per week</p>
+                        <p><strong>Meet Participation:</strong> 1-3 per SC/LC season</p>
+                        <p><strong>Required Skills:</strong></p>
+                        <ul class="list-disc list-inside pl-4 space-y-1">
+                            <li>Streamline and side push offs</li>
+                            <li>Consistently touches with two hands on Breaststroke and Butterfly</li>
+                            <li>Continuous 25 yards of each stroke</li>
+                        </ul>
+                    </div>
                 </div>
+
+                <!-- Silver Group Card -->
+                <div class="bg-gray-100 border-2 border-gray-300 rounded-lg shadow-md p-6 flex flex-col">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">🥈 Silver Group</h3>
+                    <div class="space-y-3 text-sm text-gray-700">
+                        <p><strong>Age:</strong> 9-12 years</p>
+                        <p><strong>Practice Attendance:</strong> 3 per week</p>
+                        <p><strong>Meet Participation:</strong> 3 per SC/LC season</p>
+                        <p><strong>Meet Times:</strong> 50 Free: 43.00, 100 Free: 1:45</p>
+                        <p><strong>Test Sets:</strong> 200 Free: 4:00, 200 Kick: 5:00, 5x50 Kick @ 1:30</p>
+                        <p><strong>Required Skills:</strong></p>
+                        <ul class="list-disc list-inside pl-4 space-y-1">
+                            <li>Shallow dive from block (USA Swimming certified)</li>
+                            <li>Consistent flip turns in practice and races</li>
+                            <li>Relay start with correct arm movement</li>
+                            <li>Understands simple pace clock intervals</li>
+                            <li>Legal Breaststroke kick</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Gold Group Card -->
+                <div class="bg-yellow-400 bg-opacity-20 border-2 border-yellow-500 rounded-lg shadow-md p-6 flex flex-col">
+                    <h3 class="text-2xl font-bold text-yellow-900 mb-4">🥇 Gold Group</h3>
+                    <div class="space-y-3 text-sm text-gray-700">
+                        <p><strong>Age:</strong> 11-14 years</p>
+                        <p><strong>Practice Attendance:</strong> 4 per week</p>
+                        <p><strong>Meet Participation:</strong> 4 per SC/LC season</p>
+                        <p><strong>Meet Times:</strong> 50 Free: 38.00, 100 Free: 1:30</p>
+                        <p><strong>Test Sets:</strong> 500 Free: 7:00, 400 Kick: 7:30, 5 x 100 Free @ 2:00</p>
+                        <p><strong>Required Skills:</strong></p>
+                        <ul class="list-disc list-inside pl-4 space-y-1">
+                            <li>Legal Individual Medley turns</li>
+                            <li>Performs flip turns with a snorkel</li>
+                            <li>Five dolphin kicks off walls</li>
+                            <li>Breaks out past the flags on starts</li>
+                            <li>Understands all pace clock intervals</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Senior Group Card -->
+                <div class="bg-blue-100 border-2 border-blue-300 rounded-lg shadow-md p-6 flex flex-col">
+                    <h3 class="text-2xl font-bold text-blue-800 mb-4">🏆 Senior Group</h3>
+                    <div class="space-y-3 text-sm text-gray-700">
+                        <p><strong>Age:</strong> 13+ years</p>
+                        <p><strong>Practice Attendance:</strong> 5 per week</p>
+                        <p><strong>Meet Participation:</strong> 5 per SC/LC season</p>
+                        <p><strong>Meet Times:</strong> 50 Free: 33.00, 100 Free: 1:15, 200 Free: 3:00</p>
+                        <p><strong>Test Sets:</strong> Nonstop 1000, 500 Kick: 10:00, 5 x 100 Free @ 1:40</p>
+                        <p><strong>Required Skills:</strong></p>
+                        <ul class="list-disc list-inside pl-4 space-y-1">
+                            <li>Legal 200 Individual Medley (3:15)</li>
+                            <li>Breaks out past the flags on turns</li>
+                            <li>Drylands training is required</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-6 bg-blue-50 p-4 rounded-lg border border-blue-200 text-sm text-blue-800">
+                <p><strong class="font-semibold">Coach's Discretion:</strong> Please note that all group movements are ultimately dependent on the discretion of the coaching staff, considering a swimmer's overall development, maturity, and readiness.</p>
             </div>
         </div>
 
@@ -210,7 +207,9 @@
         <!-- Page 5: Apparel, Equipment & Nutrition -->
         <div class="p-8 md:p-12">
             <div class="flex items-center space-x-4 border-b-4 border-blue-200 pb-2">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-sxeTR6hEvOBpoifs2P1xB9eX40NCQEQXtA&s" alt="Swimmer Icon" class="w-12 h-12" onerror="this.style.display='none'">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M5.636 18.364a9 9 0 010-12.728m12.728 0a9 9 0 010 12.728m-9.9-2.829a5 5 0 010-7.07m7.072 0a5 5 0 010 7.07M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
                 <h2 class="text-3xl font-bold text-blue-800">Apparel, Equipment & Nutrition</h2>
             </div>
             <div class="mt-6">
@@ -239,7 +238,9 @@
         <!-- Page 6: Guide to Swim Meets -->
         <div class="p-8 md:p-12">
             <div class="flex items-center space-x-4 border-b-4 border-blue-200 pb-2">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-sxeTR6hEvOBpoifs2P1xB9eX40NCQEQXtA&s" alt="Swimmer Icon" class="w-12 h-12" onerror="this.style.display='none'">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
                 <h2 class="text-3xl font-bold text-blue-800">Guide to Swim Meets</h2>
             </div>
             <p class="mt-4 text-gray-700 leading-relaxed">Swimmers are expected to participate in approximately three meets during the Short Course (Fall/Winter) season and three during the Long Course (Spring/Summer) season. Families choose which meets to attend via online registration.</p>
@@ -263,15 +264,18 @@
         <!-- Page 7: Volunteering & Fees -->
         <div class="p-8 md:p-12 bg-gray-50">
             <div class="flex items-center space-x-4 border-b-4 border-blue-200 pb-2">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-sxeTR6hEvOBpoifs2P1xB9eX40NCQEQXtA&s" alt="Swimmer Icon" class="w-12 h-12" onerror="this.style.display='none'">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v.01M12 12v.01M12 12V7m0 5h.01M12 12h-.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
                 <h2 class="text-3xl font-bold text-blue-800">Fees & Volunteering</h2>
             </div>
             <div class="mt-6">
                 <h3 class="font-bold text-xl text-gray-800">Club Fees & Other Costs</h3>
                 <ul class="mt-3 list-disc list-inside text-gray-700 space-y-2">
                     <li><strong>GAC Dues:</strong> Fees depend on the swimmer's training group. Payments are processed monthly from the payment method on your online account.</li>
+                    <li><strong>Initial Registration:</strong> GAC provides a one-time break on the club registration fee for new swimmers joining for the first time.</li>
                     <li><strong>USA Swimming:</strong> Annual membership fee paid directly to USA Swimming.</li>
-                    <li><strong>Facility Membership:</strong> Membership at Logan Health Medical Fitness Center (The Summit) or The Wave is required. Check with the facility for discounted rates.</li>
+                    <li><strong>Facility Membership:</strong> Membership at Logan Health Medical Fitness Center (The Summit) or The Wave is required. Check with the facility for rates.</li>
                     <li><strong>Meet Fees:</strong> Each meet has entry fees per event, which are billed to your GAC account.</li>
                 </ul>
             </div>
@@ -281,7 +285,7 @@
             </div>
             <div class="mt-8">
                 <h3 class="font-bold text-xl text-gray-800">Becoming an Official</h3>
-                <p class="mt-2 text-gray-600">Officiating is a fantastic way to fulfill your volunteer hours and learn the sport. It is a volunteer position with training and testing regulated by USA Swimming. Expenses are tax-deductible, and you get the best seat in the house! Contact the GAC Board for more info.</p>
+                <p class="mt-2 text-gray-600">Officiating is a fantastic way to fulfill volunteer hours and learn the sport. Volunteer Officials are a critical part of having a successful swim club and are needed for us to run home meets. GAC will pay for all training expenses, background checks, and your USA Swimming membership. Contact the GAC Board for more info.</p>
             </div>
         </div>
 
@@ -290,7 +294,9 @@
         <!-- Page 8: Codes of Conduct & Communication -->
         <div class="p-8 md:p-12">
             <div class="flex items-center space-x-4 border-b-4 border-blue-200 pb-2">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-sxeTR6hEvOBpoifs2P1xB9eX40NCQEQXtA&s" alt="Swimmer Icon" class="w-12 h-12" onerror="this.style.display='none'">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a2 2 0 01-2-2V7a2 2 0 012-2h2.586a1 1 0 01.707.293l2.414 2.414a1 1 0 00.707.293H17z" />
+                </svg>
                 <h2 class="text-3xl font-bold text-blue-800">Codes of Conduct & Communication</h2>
             </div>
             <div class="mt-6">
@@ -325,7 +331,9 @@
         <!-- Page 9: Safe Sport -->
         <div class="p-8 md:p-12">
             <div class="flex items-center space-x-4 border-b-4 border-red-200 pb-2">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-sxeTR6hEvOBpoifs2P1xB9eX40NCQEQXtA&s" alt="Swimmer Icon" class="w-12 h-12" onerror="this.style.display='none'">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
                 <h2 class="text-3xl font-bold text-red-800">USA Swimming Safe Sport</h2>
             </div>
             <p class="mt-4 text-gray-700 leading-relaxed">The Glacier Aquatic Club takes the protection of our athletes very seriously. We are committed to providing a safe, healthy, and positive environment for every athlete and fully support USA Swimming's Safe Sport program.</p>
@@ -352,51 +360,76 @@
         
         <div class="page-break"></div>
 
-        <!-- Page 10: FAQ -->
+        <!-- Page 10: Swim Meet Lingo -->
         <div class="p-8 md:p-12">
             <div class="flex items-center space-x-4 border-b-4 border-blue-200 pb-2">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-sxeTR6hEvOBpoifs2P1xB9eX40NCQEQXtA&s" alt="Swimmer Icon" class="w-12 h-12" onerror="this.style.display='none'">
-                <h2 class="text-3xl font-bold text-blue-800">Frequently Asked Questions</h2>
+                 <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <h2 class="text-3xl font-bold text-blue-800">Swim Meet Lingo: A Quick Glossary</h2>
             </div>
-            <div class="mt-8">
-                <h3 class="text-xl font-bold text-gray-800">For the Swimmer</h3>
-                <div class="mt-4 space-y-6">
-                    <div>
-                        <h4 class="font-semibold text-gray-700">What is a DQ?</h4>
-                        <p class="text-gray-600 mt-1">A Disqualification, or DQ, happens if a stroke is performed illegally. Don't worry! Every swimmer gets DQ'd. It's a learning opportunity.</p>
-                    </div>
-                    <div>
-                        <h4 class="font-semibold text-gray-700">What if my goggles fall off?</h4>
-                        <p class="text-gray-600 mt-1">Just keep swimming! It's better to finish the race without them than to stop.</p>
-                    </div>
-                    <div>
-                        <h4 class="font-semibold text-gray-700">What should I eat during a meet?</h4>
-                        <p class="text-gray-600 mt-1">Focus on light, healthy snacks that give you sustained energy like fruit, granola bars, or yogurt. Avoid heavy, greasy foods or lots of sugar.</p>
-                    </div>
+            <div class="mt-8 grid md:grid-cols-2 gap-x-8 gap-y-6">
+                <div>
+                    <h4 class="font-semibold text-gray-800 text-lg">Event</h4>
+                    <p class="text-gray-600 mt-1">A specific race, defined by age group, distance, and stroke (e.g., "Girls 10 & Under 50 Freestyle").</p>
                 </div>
-            </div>
-            
-            <div class="mt-12">
-                <h3 class="text-xl font-bold text-gray-800">For the Parent</h3>
-                <div class="mt-4 space-y-6">
-                    <div>
-                        <h4 class="font-semibold text-gray-700">Why is my 7-year-old swimming next to a 12-year-old?</h4>
-                        <p class="text-gray-600 mt-1">Swimmers are "seeded" into heats based on their best times, not their age. Final results are always broken down by age group (8 & Under, 9-10, etc.).</p>
-                    </div>
-                    <div>
-                        <h4 class="font-semibold text-gray-700">What does "NT" mean?</h4>
-                        <p class="text-gray-600 mt-1">"No Time." This means it's the swimmer's first time officially competing in that event.</p>
-                    </div>
-                    <div>
-                        <h4 class="font-semibold text-gray-700">What are A, B, BB, etc., time standards?</h4>
-                        <p class="text-gray-600 mt-1">USA Swimming sets "motivational time standards" to measure a swimmer's progress and to qualify for certain meets, like the State Championship.</p>
-                    </div>
+                 <div>
+                    <h4 class="font-semibold text-gray-800 text-lg">Heat</h4>
+                    <p class="text-gray-600 mt-1">A single race within an event. Events with many swimmers are broken down into multiple heats.</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-gray-800 text-lg">Seed Time</h4>
+                    <p class="text-gray-600 mt-1">The swimmer's best recorded time for an event. This time is used to place them in heats with swimmers of similar speed.</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-gray-800 text-lg">Heat Sheet</h4>
+                    <p class="text-gray-600 mt-1">The program for the meet, listing all swimmers by event, heat, and lane. This is available on the Meet Mobile app before the meet starts.</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-gray-800 text-lg">SCY (Short Course Yards)</h4>
+                    <p class="text-gray-600 mt-1">Refers to a 25-yard pool. This is the standard pool length for the fall/winter swim season in the USA.</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-gray-800 text-lg">LCM (Long Course Meters)</h4>
+                    <p class="text-gray-600 mt-1">Refers to a 50-meter pool (Olympic size). This is the standard for the spring/summer season.</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-gray-800 text-lg">IM (Individual Medley)</h4>
+                    <p class="text-gray-600 mt-1">An event where the swimmer performs all four strokes in the following order: Butterfly, Backstroke, Breaststroke, and Freestyle.</p>
+                </div>
+                 <div>
+                    <h4 class="font-semibold text-gray-800 text-lg">Deck</h4>
+                    <p class="text-gray-600 mt-1">The area surrounding the swimming pool. Access to the deck is usually restricted to swimmers, coaches, officials, and volunteers.</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-gray-800 text-lg">NT (No Time)</h4>
+                    <p class="text-gray-600 mt-1">"No Time." This means it's the swimmer's first time officially competing in that event.</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-gray-800 text-lg">Time Standards (B, BB, A, etc.)</h4>
+                    <p class="text-gray-600 mt-1">USA Swimming sets "motivational time standards" to measure a swimmer's progress and to qualify for certain meets, like the State Championship.</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-gray-800 text-lg">Split</h4>
+                    <p class="text-gray-600 mt-1">The time for a specific segment of a race. For example, a swimmer's time at the 50-yard mark of a 100-yard race is their "50 split."</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-gray-800 text-lg">Relay</h4>
+                    <p class="text-gray-600 mt-1">An event where four swimmers compete as a team. Each swimmer swims one "leg" of the race before the next teammate dives in.</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-gray-800 text-lg">Scratch</h4>
+                    <p class="text-gray-600 mt-1">To officially withdraw from an event after signing up for it. Coaches sometimes do this for strategic reasons.</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-gray-800 text-lg">Touchpad</h4>
+                    <p class="text-gray-600 mt-1">The sensitive electronic pad at the end of each lane that stops the clock when a swimmer touches it to record their official time.</p>
                 </div>
             </div>
         </div>
 
         <div class="page-break"></div>
-        
+
         <!-- Page 11: Coaches & Board -->
         <div class="p-8 md:p-12">
             <h2 class="text-3xl font-bold text-blue-800 border-b-4 border-blue-200 pb-2">Coaches & Board of Directors</h2>
@@ -418,8 +451,8 @@
                     <p><strong>Shawn Hummer</strong>, President</p>
                     <p><strong>Dianne Dotter</strong>, Vice President</p>
                     <p><strong>Andrea Schroeder</strong>, Treasurer</p>
-                    <p><strong>Jonnette Sibson</strong>, Secretary</p>
-                    <p><strong>Matthew Weber</strong>, Board Member</p>
+                    <p><strong>Matthew Weber</strong>, Secretary</p>
+                    <p><strong>Jonnette Sibson</strong>, Board Member</p>
                     <p><strong>Nolan McGaughy</strong>, Board Member</p>
                     <p><strong>Jessica Beaulieu</strong>, Board Member</p>
                     <p><strong>Eliana Juster</strong>, Board Member</p>
@@ -443,3 +476,4 @@
 
 </body>
 </html>
+
